@@ -38,9 +38,9 @@ const JobDetails = () => {
             
         <div className='bg-hero-pattern w-full h-40   bg-no-repeat flex items-center justify-center '> <h2 className='text-2xl font-semibold text-cyan-700 drop-shadow-lg'>Job Details</h2></div>
         
-        <div className='lg:flex lg:justify-center flex-cols gap-2 mt-10 '>
+        <div className='lg:flex lg:justify-center flex-cols gap-3 mt-10 '>
             {/* {/* Left side */}
-            <div className='w-7/12 text-left	'> 
+            <div className='w-7/12 text-left lg:ml-12	'> 
                 {/* Job description */}
                 <p className=''><span className='font-bold text-gray-700'>Job Description:</span> <span className=' text-gray-600 text-sm'>
                 {specificJob.job_description}</span></p>
